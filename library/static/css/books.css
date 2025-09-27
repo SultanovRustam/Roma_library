@@ -1,0 +1,37 @@
+/* Стили для списка книг */
+.book-cover-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
+.book-cover {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Стили для детальной страницы */
+.book-cover-container-detail {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.book-cover-detail {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.no-cover-placeholder {
+    height: 300px;
+    border: 1px dashed #dee2e6;
+}
